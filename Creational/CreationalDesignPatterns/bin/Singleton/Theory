@@ -1,0 +1,20 @@
+Singleton is a creational design pattern that lets you ensure that a class has only one instance,
+while providing a global access point to this instance.
+
+Questions - 
+
+1 - What if there are multiple threads using getInstance at the same time ? Will it break the single ton pattern ?
+2 - What are its uses in a real world project ? ( you have a one logger file , one cache , one printer )
+3 - How can I destroy this object in case i want to ? 
+
+Story 
+
+There is a company and You want to perform operations in that Company
+For that you need the CEO
+So once you create a CEO , you do not want another CEO
+
+
+NOTE - 
+This one CEO , will perform all your operations now, for the life time 
+OR 
+Can you get a new CEO again ?
