@@ -1,0 +1,10 @@
+When You need more than one Objects , but you do not want to create them yourself.
+Client asks you to create a method ,  which can build an object when the specifications are provided.
+
+Questions - 
+1 - Why is it better to create an Interface/Abstract class for the Object to be created
+2 - What if the Factory Instance stops working/error prone ?
+
+
+Note - 
+Use the Abstract Factory when your code needs to work with various families of related products, but you don’t want it to depend on the concrete classes of those products—they might be unknown beforehand or you simply want to allow for future extensibility.
